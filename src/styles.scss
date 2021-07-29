@@ -12,3 +12,15 @@
 // @import "../node_modules/bootswatch/dist/sandstone/variables";
 // @import "../node_modules/bootswatch/dist/sandstone/bootstrap.min.css";
   
+
+::-webkit-scrollbar {
+    width: 4px;
+    overflow-y: scroll;
+    background: grey;
+    box-shadow: inset 0 0 4px #707070;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F2621F;
+    border-radius: 10px;
+}

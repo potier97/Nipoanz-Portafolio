@@ -64,6 +64,7 @@
 .navbar .active:focus,
 .navbar li:hover > a {
   color: #F2621F;
+  text-decoration: underline;
 }
 
 .navbar .dropdown ul {
@@ -234,4 +235,9 @@
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+
+
+.nav-link {
+  cursor: pointer;
 }
